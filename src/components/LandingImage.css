@@ -1,6 +1,6 @@
 .mask {
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     position: relative;
 }
 
@@ -23,28 +23,29 @@
     object-fit: cover;
 }
 
-.hero {
+.landing {
     height: 100%;
     width: 100%;
 }
 
-.hero .content {
+.landing .content {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 32.5vh;
     left: 50%;
     text-align: center;
 }
 
-.hero .content > h1 {
+.landing .content > h1 {
     font-size: 4rem;
     padding: 0.3rem 0;
     text-transform: uppercase;
+    color: var(--color-primary-variant);
 }
 
-.hero .content > p {
+.landing .content > p {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .content .btn {
@@ -52,11 +53,20 @@
 }
 
 @media screen and (max-width: 640px) {
-    .hero .content > h1 {
-        font-size: 4rem;
+    .mask {
+        height: 49vh;
+    }
+    
+    .landing .content {
+        top: 30vh;
     }
 
-    .hero .content > p {
+    .landing .content > h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .landing .content > p {
         font-size: 1.4rem;
     }
 }
