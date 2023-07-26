@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import LandingImage from '../components/LandingImage'
+import LandingImage1 from '../components/LandingImage1'
 import Footer from "../components/Footer"
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <LandingImage />
+      <LandingImage1 />
       <Footer />
     </>
   )

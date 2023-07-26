@@ -1,0 +1,68 @@
+.landing__1 .mask {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.landing__1 .mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-bg-transparent);
+}
+
+.intro-bg {
+    width: 100%;
+    height: 100%;
+    background: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.landing__1 {
+    height: 100%;
+    width: 100%;
+}
+
+.landing__1 .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 32.5vh;
+    left: 50%;
+    text-align: center;
+}
+
+.landing__1 .content > h1 {
+    font-size: 4rem;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+    color: var(--color-primary-variant);
+}
+
+.landing__1 .content > p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.content .btn {
+    margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width: 640px) {
+    
+    .landing__1 .content {
+        top: 30vh;
+    }
+
+    .landing__1 .content > h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .landing__1 .content > p {
+        font-size: 1.4rem;
+    }
+}

@@ -9,8 +9,7 @@
 
 :root {    
     --color-bg: #0f1729;
-    --color-bg-variant: rgba(215, 132, 43, 0.6);
-    --color-bg-variant-transparent: rgba(243, 131, 10, 0.1);
+    --color-bg-transparent: rgba(15, 23, 41, .6);
     --color-nav: rgb(4 11 26 / 85%);
     --color-primary: #d7842b;
     --color-primary-variant: #ddaa00;
@@ -25,7 +24,11 @@ body {
     color: var(--color-white);
 }
 
-h1, h4, p, a{
+h1 {
+    color: var(--color-primary-variant);
+}
+
+h4, p, a{
     color: var(--color-white);
     text-decoration: none;
 }

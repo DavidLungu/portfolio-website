@@ -1,12 +1,12 @@
-import "./LandingImage.css"
+import "./LandingImage1.css"
 import React from 'react'
 import IntroBG from "../assets/intro-bg.jpg"
 import { Link } from "react-router-dom"
 import CV from "../assets/cv.pdf"
 
-const LandingImage = () => {
+const LandingImage1 = () => {
   return (
-    <div className="landing">
+    <div className="landing__1">
       <div className="mask">
         <img className="intro-bg" src={IntroBG} alt="IntroBG"/>
       </div>
@@ -25,4 +25,4 @@ const LandingImage = () => {
   )
 }
 
-export default LandingImage
+export default LandingImage1

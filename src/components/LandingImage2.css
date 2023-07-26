@@ -1,21 +1,20 @@
-.mask {
+.landing__2 .mask {
     width: 100%;
-    height: 65vh;
+    height: 70vh;
     position: relative;
 }
 
-.mask::after {
+.landing__2 .mask::after {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #0b0c2c;
-    opacity: 0.6;
+    background-color: var(--color-bg-transparent);
 }
 
-.intro-bg {
+.landing-bg {
     width: 100%;
     height: 100%;
     background: cover;
@@ -23,12 +22,12 @@
     object-fit: cover;
 }
 
-.landing {
+.landing__2 {
     height: 100%;
     width: 100%;
 }
 
-.landing .content {
+.landing__2 .content {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 32.5vh;
@@ -36,15 +35,13 @@
     text-align: center;
 }
 
-.landing .content > h1 {
-    font-size: 4rem;
+.landing__2 .content > h1 {
+    font-size: 2.4rem;
     padding: 0.3rem 0;
-    text-transform: uppercase;
-    color: var(--color-primary-variant);
 }
 
-.landing .content > p {
-    font-size: 1.5rem;
+.landing__2 .content > p {
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
@@ -53,20 +50,17 @@
 }
 
 @media screen and (max-width: 640px) {
-    .mask {
-        height: 49vh;
-    }
     
-    .landing .content {
+    .landing__2 .content {
         top: 30vh;
     }
 
-    .landing .content > h1 {
-        font-size: 4rem;
+    .landing__2 .content > h1 {
+        font-size: 2.4rem;
         line-height: 4rem;
     }
 
-    .landing .content > p {
-        font-size: 1.4rem;
+    .landing__2 .content > p {
+        font-size: 1.1rem;
     }
 }
