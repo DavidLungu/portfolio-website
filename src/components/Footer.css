@@ -1,96 +1,60 @@
 .footer {
-    width: 100%;
-    padding: 6rem 0;
-    background-color: var(--color-bg);
-    height: 30vh;
-    overflow-x: hidden;
-}
-
-.footer-container {
-    max-width: 1140px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.left {
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-.home {
-    max-width: fit-content;
-    position: relative;
-    margin-bottom: 1rem;
-}
-
-.email {
-    display: flex;
-    margin-bottom: 1rem;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    width: 100%;
-}
-
-.right {
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-.socials {
-    margin-top: 1rem;  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 3rem;
-}
-
-h4 {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    padding-bottom: 0.7rem;
-    color: var(--color-primary-variant);
+    padding: 3rem 0;
     text-align: center;
+    font-size: 0.9rem;
 }
 
-p {
-    font-size: 1.2rem;
+.footer > a {
+    color: var(--color-primary);
+    font-weight: 700;
 }
 
-@media screen and (max-width: 640px) {
-    .footer {
-        padding: 1rem 0;
-        display: flex;
-        flex-direction: column;
-        height: 50vh;
-    }
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
 
-    .footer-container {
-        flex-direction: column;
-        align-items: normal;
-    }
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
 
-    .left {
-        align-items: center;
-    }
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
 
-    h4 {
-        font-size: 1rem;
-        padding-bottom: 0.7rem;
-    }
-    
-    p {
-        font-size: 1rem;
+.footer__socials > a {
+    background: var(--color-primary-variant);
+    color: var(--color-bg);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials > a:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-primary-variant);
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
     }
 }

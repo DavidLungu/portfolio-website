@@ -10,6 +10,7 @@
 :root {    
     --color-bg: #0f1729;
     --color-bg-transparent: rgba(15, 23, 41, .6);
+    --color-bg-variant: #1e214d;
     --color-nav: rgb(4 11 26 / 85%);
     --color-primary: #d7842b;
     --color-primary-variant: #ddaa00;
@@ -17,6 +18,10 @@
     --color-grey: rgba(182, 182, 182, 0.8);
 
     --transition: all 300ms ease;
+
+    -container-width-lg: 75%;
+    -container-width-md: 86%;
+    -container-width-sm: 90%;
 }
 
 body {
@@ -43,10 +48,20 @@ a {
     transition: var(--transition);
 }
 
+a:hover {
+    color: var(--color-white);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -61,8 +76,8 @@ a {
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
+    background: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
     color: #000;
 }
 

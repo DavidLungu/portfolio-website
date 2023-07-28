@@ -5,50 +5,26 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
-    <div className="footer">
-        <div className="footer-container">
-            <div className="left">
-                <Link to="/" className="home">
-                    <FaHome size={60} style={{
-                                color: "#fff",
-                    }}/>
-                </Link>
-                <div className="email">
-                    {/* <FaMailBulk size={20} style={{
-                        color: "#fff", 
-                        marginRight: "2rem"
-                    }}/> */}
-                    davlungu3@gmail.com
-                </div>
-                <div className="phone">
-                    {/* <FaPhone size={20} style={{
-                        color: "#fff",
-                        marginRight: "2rem"
-                    }}/> */}
-                    1-234-456-7890
-                </div>
-            </div>
-            <div className="right">
-                    <div className="socials">
-                        <a href="https://twitter.com/HeatedBread" target="_blank" rel="noopener noreferrer">
-                            <FaTwitter size={30} style={{
-                                color:"#fff"
-                            }}/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/david-lungu-723a85242/" target="_blank" rel="noopener noreferrer">
-                            <FaLinkedin size={30} style={{
-                                color:"#fff"
-                            }}/>
-                        </a>
-                        <a href="https://github.com/HeatedBread" target="_blank" rel="noopener noreferrer">
-                            <FaGithub size={30} style={{
-                                color:"#fff"
-                            }}/>
-                        </a>
-                    </div>
-            </div>
+    <footer className="footer">
+        <Link to="/" className="footer__logo">HeatedBread</Link>
+
+        <ul className="permalinks">
+				<li><Link to="/">Home</Link></li>
+				<li><Link to="/About">About</Link></li>
+				<li><Link to="/Projects">Projects</Link></li>
+				<li><Link to="/Contact">Contact</Link></li>
+			</ul>
+
+        <div className="footer__socials">
+            <a href="https://twitter.com/HeatedBread" target="_blank" rel="noopener noreferrer"><FaTwitter size={25}/></a>
+            <a href="https://www.linkedin.com/in/david-lungu-723a85242/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={25}/></a>
+            <a href="https://github.com/HeatedBread" target="_blank" rel="noopener noreferrer"><FaGithub size={25}/></a>
         </div>
-    </div>
+
+        <div className="footer__copyright">
+            <small>&copy; HeatedBread. All rights reserved.</small>
+        </div>
+    </footer>
   )
 }
 
