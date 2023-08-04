@@ -3,12 +3,12 @@
     grid-template-columns: repeat(3, 1fr);
     width: 75%;
     gap: 2.5rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
     justify-items: center;
 }
 
 .project__item {
-    background: var(--color-bg-variant);
+    background: var(--color-card);
     padding: 1.2rem;
     border-radius: 2rem;
     border: 2px solid transparent;

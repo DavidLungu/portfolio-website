@@ -1,5 +1,6 @@
 .landing__2 .mask {
     width: 100%;
+    top: 90px;
     height: 70vh;
     position: relative;
 }
@@ -30,19 +31,21 @@
 .landing__2 .content {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 32.5vh;
+    top: 40vh;
     left: 50%;
     text-align: center;
+    width: 100%;
 }
 
 .landing__2 .content > h1 {
-    font-size: 2.4rem;
+    font-size: 75px;
     padding: 0.3rem 0;
+    color: var(--color-primary);
 }
 
 .landing__2 .content > p {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .content .btn {
@@ -51,8 +54,12 @@
 
 @media screen and (max-width: 640px) {
     
+    .landing__2 .mask {
+        height: 40vh;
+    }
+
     .landing__2 .content {
-        top: 30vh;
+        top: 25vh;
     }
 
     .landing__2 .content > h1 {

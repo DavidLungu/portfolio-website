@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <LandingImage2 heading="CONTACT" text="Let's chat!" background={LandingBG}/>
+      <LandingImage2 heading="Contact" text="Let's chat!" background={LandingBG}/>
       <Footer />
     </>
   )

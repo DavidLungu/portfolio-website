@@ -8,17 +8,14 @@ const LandingImage1 = () => {
   return (
     <div className="landing__1">
       <div className="mask">
-        <img className="intro-bg" src={IntroBG} alt="IntroBG"/>
+        <img className="intro-bg"  alt="IntroBG"/>
       </div>
       <div className="content">
-        <p>Hello, I'm</p>
-        <h1>David Lungu</h1>
-        <p>Software Developer</p> 
+        <h1 id="name"><span>David</span> <span id="surname">Lungu</span></h1>
+        <p><span>Software Developer</span> & <span>Full Stack Developer.</span></p>
         <div className="buttons">
-            <Link to="/about" className="btn btn-primary">About</Link>
-            <Link to="/projects" className="btn btn-primary">Projects</Link>
-            {/* <a href={CV} download className="btn btn-file">Download CV</a> */}
-            <Link to="/contact" className="btn btn-primary">Contact</Link>
+          <Link to="/about" className="btn btn-primary">Who am I?</Link>
+          {/* <a href={CV} download className="btn btn-file">Download CV</a> */}
         </div>
       </div>
     </div>
