@@ -1,4 +1,3 @@
-import "./Container.css"
 import "./ProjectContainer.css"
 import React from 'react'
 import ProjectContainerItem from "./ProjectContainerItem";

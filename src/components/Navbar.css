@@ -46,9 +46,6 @@
     margin-right: 1rem;
 }
 
-.slide-drawer {
-    display: none;
-}
 
 @media screen and (max-width: 1040px) {
     .nav-menu {
@@ -75,9 +72,5 @@
 
     .nav-menu > a {
         font-size: 2rem;
-    }
-
-    .slide-drawer {
-        display: initial;
     }
 }

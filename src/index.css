@@ -9,7 +9,8 @@
     --color-bg: #1A191D;
     --color-bg-transparent: rgb(26 25 29 / 60%);
     --color-card: rgb(32, 31, 35);
-    --color-nav: rgb(26 25 29 / 95%);
+    --color-nav: rgb(26 25 29);
+    --color-nav-mobile: rgb(39 40 47 / 95%);
     --color-primary: #ddaa00;
     --color-primary-variant: #d7842b;
     --color-white: #e2e8f0;
@@ -86,4 +87,29 @@ img {
     background: var(--color-primary-variant);
     border-color: var(--color-primary-variant);
     color: #000;
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section > h2 {
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
