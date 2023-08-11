@@ -6,13 +6,13 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <footer className="footer">
-        <Link to="/" className="footer__logo">HeatedBread</Link>
+        <Link to="/" className="footer__logo">David Lungu</Link>
 
         <ul className="permalinks">
 				<li><Link to="/">Home</Link></li>
-				<li><Link to="/About">About</Link></li>
-				<li><Link to="/Projects">Projects</Link></li>
-				<li><Link to="/Contact">Contact</Link></li>
+				<li><Link to="/about">About</Link></li>
+				<li><Link to="/projects">Projects</Link></li>
+				<li><Link to="/contact">Contact</Link></li>
 			</ul>
 
         <div className="footer__socials">

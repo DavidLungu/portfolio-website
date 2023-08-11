@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import NavbarMobile from '../components/NavbarMobile'
 import Footer from '../components/Footer'
 import LandingImage2 from '../components/LandingImage2'
 import LandingBG from "../assets/project-bg.avif"
@@ -9,6 +10,7 @@ const Projects = () => {
   return (
     <>
       <Navbar />
+      <NavbarMobile />
       <LandingImage2 heading="Projects" text="Some of my most recent works" background={LandingBG}/>
       <ProjectContainer />
       <Footer />

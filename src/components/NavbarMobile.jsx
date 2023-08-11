@@ -1,14 +1,14 @@
 import React from "react"
 import "./NavbarMobile.css"
 import { AiOutlineHome } from "react-icons/ai"
-import { AiOutlineUser} from "react-icons/ai"
+import { AiOutlineUser } from "react-icons/ai"
 import { MdWork } from "react-icons/md"
 import { BsFillChatLeftDotsFill } from "react-icons/bs"
 import { useState } from "react"
 import { Link } from 'react-router-dom'
 
 const NavbarMobile = () => {
-    const [activeNav, setActiveNav] = useState('/');
+    const [activeNav, setActiveNav] = useState(window.location.pathname);
 
     return (
         <nav>

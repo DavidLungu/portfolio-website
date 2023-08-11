@@ -3,8 +3,6 @@
     grid-template-columns: repeat(3, 1fr);
     width: 75%;
     gap: 2.5rem;
-    margin-top: 8rem;
-    justify-items: center;
 }
 
 .project__item {

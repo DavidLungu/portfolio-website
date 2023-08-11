@@ -4,7 +4,6 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Projects from "./routes/Projects"
 import Contact from "./routes/Contact"
-import NavbarMobile from './components/NavbarMobile'
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -16,7 +15,6 @@ const App = () => {
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
         </Routes>
-        <NavbarMobile />
     </>  
 )
 }

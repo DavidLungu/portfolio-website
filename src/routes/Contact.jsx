@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import NavbarMobile from '../components/NavbarMobile'
 import Footer from '../components/Footer'
 import LandingImage2 from '../components/LandingImage2'
 import LandingBG from "../assets/talking-bg.jpg"
@@ -9,6 +10,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
+      <NavbarMobile />
       <LandingImage2 heading="Contact" text="Let's chat!" background={LandingBG}/>
       <ContactForm />
       <Footer />
