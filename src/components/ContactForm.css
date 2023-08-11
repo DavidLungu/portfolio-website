@@ -80,8 +80,4 @@ input, textarea {
         display: flex;
         justify-content: center;
     }
-
-    .submit-button .btn {
-        width: 100%;
-    }
 }

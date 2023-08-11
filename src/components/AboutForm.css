@@ -10,14 +10,25 @@
 .about .left {
     text-align: center;
     padding: 1rem;
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
     left: 10%;
 }
 
+.about .left > h1 {
+    font-size: 75px;
+}
+
+
 .about .left > p {
     margin: 1.2rem 0;
     line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.about .left .btn {
+    margin-top: 10px;
 }
 
 .about .right {
@@ -25,6 +36,7 @@
     position: absolute;
     right: 10%;
 }
+
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-primary);
@@ -63,6 +75,9 @@
     .about .left {
         position: relative;
         left: 0;
+    }
+    .about .left > h1 {
+        font-size: 4rem;
     }
 
     .about .right {
