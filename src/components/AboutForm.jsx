@@ -24,7 +24,7 @@ const AboutForm = () => {
 
         <div className="right">
             <div className="img-container">
-                <Swiper 
+                {/* <Swiper 
                     modules={[Pagination]}
                     pagination={true}
                     // style={{  
@@ -32,7 +32,7 @@ const AboutForm = () => {
                     //     "--swiper-pagination-bullet-size": "32px",
                     // }}
                 >
-                </Swiper>
+                </Swiper> */}
 
                 <div className="img-stack top">
                     <img className="img" src={IMG1} alt="image" />

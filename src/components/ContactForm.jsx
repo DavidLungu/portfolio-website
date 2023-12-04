@@ -39,7 +39,7 @@ const ContactForm = () => {
                     </article>
                     <article className="contact">
                         <BsLinkedin className="contact__icon" />
-                        <h4>Linked In</h4>
+                        <h4>Linkedin</h4>
                         <h5>David Lungu</h5>
                         <Link to="https://www.linkedin.com/in/david-lungu-723a85242/" target="_blank" rel="noopener noreferrer">Send a message</Link>
                     </article>

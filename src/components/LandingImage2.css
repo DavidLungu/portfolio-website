@@ -1,7 +1,7 @@
 .landing__2 .mask {
     width: 100%;
     padding-top: 90px;
-    height: 70vh;
+    height: 40vh;
     position: relative;
 }
 
@@ -31,7 +31,7 @@
 .landing__2 .content {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 40vh;
+    top: 23vh;
     left: 50%;
     text-align: center;
     width: 100%;
@@ -63,7 +63,7 @@
     }
 
     .landing__2 .content > h1 {
-        font-size: 2.4rem;
+        font-size: 3.5rem;
         line-height: 4rem;
     }
 

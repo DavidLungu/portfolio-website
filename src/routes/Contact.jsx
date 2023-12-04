@@ -11,7 +11,7 @@ const Contact = () => {
     <>
       <Navbar />
       <NavbarMobile />
-      <LandingImage2 heading="Contact" text="Let's chat!" background={LandingBG}/>
+      <LandingImage2 heading="CONTACT" text="" background={LandingBG}/>
       <ContactForm />
       <Footer />
     </>

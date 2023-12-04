@@ -11,7 +11,7 @@ const Projects = () => {
     <>
       <Navbar />
       <NavbarMobile />
-      <LandingImage2 heading="Projects" text="Some of my most recent works" background={LandingBG}/>
+      <LandingImage2 heading="PROJECTS" text="" background={LandingBG}/>
       <ProjectContainer />
       <Footer />
     </>
