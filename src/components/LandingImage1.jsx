@@ -16,7 +16,9 @@ const LandingImage1 = () => {
             <h1 id="name"><span>&lt;David</span> <span id="surname">Lungu/&gt;</span></h1>
             <p><span>Software Developer</span> & <span>Full Stack Developer.</span></p>
             <div className="buttons">
-                <Link to="/about" className="btn btn-primary">Who am I?</Link>
+                <Link to="/about" className="btn btn-primary">Learn More</Link>
+                <Link to="/projects" className="btn btn-primary">See Projects</Link>
+
                 {/* <a href={CV} download className="btn btn-file">Download CV</a> */}
             </div>
         </div>

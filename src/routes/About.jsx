@@ -11,6 +11,7 @@ const About = () => {
     <>
       <Navbar />
       <NavbarMobile />
+      <LandingImage2 heading="About" text="Who is David Lungu?" background={LandingBG}/>
       <AboutForm />
       <Footer />
     </>
