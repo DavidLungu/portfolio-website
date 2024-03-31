@@ -1,0 +1,15 @@
+{
+    "casted" : {
+        "image": "casted.png",
+        "title": "Casted (Unity Game)",
+        "github": "https://github.com/HeatedBread/casted-game",
+        "demo": "https://heatedbread.itch.io/casted"
+    },
+
+    "tasklist" : {
+        "image": "tasklist.png",
+        "title": "Task List",
+        "github": "https://github.com/HeatedBread/todo-revamp",
+        "demo": ""
+    }
+}

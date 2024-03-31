@@ -21,6 +21,9 @@
 .project__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+
+    width: 700px;
+    height: 500px;
 }
 
 .project__item > h3 {
@@ -37,6 +40,11 @@
     .project__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+    }
+
+    .project__item-image {
+        width: 100%;
+        height: auto;
     }
 }
 

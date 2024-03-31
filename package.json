@@ -16,7 +16,8 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.1",
     "swiper": "^10.1.0",
-    "typewriter-effect": "^2.20.1"
+    "typewriter-effect": "^2.20.1",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
