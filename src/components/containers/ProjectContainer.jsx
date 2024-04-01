@@ -9,7 +9,7 @@ const PortfolioContainer = () => {
         <div className="container project__container">
         {
             jsonData && Object.entries(jsonData).map(([key, item]) => (
-                <ProjectContainerItem key={uuidv4()} title={item.title} img={`/src/assets/project-thumbnails/${item.image}`} github={item.github} demo={item.demo}/>    
+                <ProjectContainerItem key={uuidv4()} title={item.title} img={`/project-thumbnails/${item.image}`} github={item.github} demo={item.demo}/>    
             ))
         }
         </div>
