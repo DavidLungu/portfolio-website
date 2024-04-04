@@ -9,7 +9,7 @@
     "tasklist" : {
         "image": "tasklist.png",
         "title": "Task List",
-        "github": "https://github.com/HeatedBread/todo-revamp",
-        "demo": ""
+        "github": "https://github.com/HeatedBread/task-list/",
+        "demo": "https://heatedbread-tasklist.vercel.app/"
     }
 }
